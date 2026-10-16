@@ -17,3 +17,36 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 @media(max-width:720px){.stat{gap:9px;padding-inline:11px}.stat strong{font-size:23px;white-space:nowrap}.stat p{font-size:9px}}
+/* Typography scale refinement: readable minimum 14px across the site. */
+body{font-size:16px}
+.navigation a{font-size:14px}
+.eyebrow{font-size:14px;line-height:1.35;letter-spacing:1.35px}
+.hero .eyebrow{margin-bottom:19px}
+.authors{font-size:14px;line-height:1.75}.authors sup{font-size:11px}
+.affiliations{font-size:14px;line-height:1.7}.affiliations span{font-size:14px}
+.button{font-size:14px}.paper-status{font-size:14px}
+.stat h2{font-size:17px}.stat p{font-size:14px;line-height:1.45}
+.section-heading p{font-size:16px;line-height:1.55}
+.highlight h3{font-size:17px}.highlight p{font-size:16px;line-height:1.5}
+.index{font-size:14px}.quiet-label{font-size:14px;line-height:1.45;letter-spacing:0}
+.text-link{font-size:14px}.timeline time,.timeline-meta{font-size:14px;letter-spacing:.25px}
+.timeline h3{font-size:18px}.timeline p{font-size:15px;line-height:1.5}.event-label{font-size:14px;letter-spacing:.35px}
+.step-title{font-size:15px}.step-title>span{font-size:14px}
+.framework-step>p{font-size:15px;line-height:1.5}.framework-step>p span{font-size:14px}
+.tool-list>div{font-size:14px}.framework-note>span,.framework-note p{font-size:14px}
+.capability h3{font-size:15px}.capability p{font-size:14px;line-height:1.55}
+.methodology-note{font-size:14px;line-height:1.6}
+.resource-intro .eyebrow{font-size:14px}.resource-intro p{font-size:15px;line-height:1.55}
+.contact-link{font-size:14px}.resource-list>a,.unavailable-resource{font-size:14px}
+.resource-list>*>span:last-child{font-size:14px}.footer{font-size:14px}.footer-paper{font-size:14px}
+@media(max-width:1180px){.navigation a{font-size:14px}.stat p{font-size:14px}.highlight p{font-size:15px}.quiet-label{font-size:14px}.tool-list>div{font-size:14px}}
+@media(max-width:900px){.navigation a{font-size:14px}.hero .eyebrow{font-size:14px}.authors,.affiliations{font-size:14px}.button{font-size:14px}.highlight p{font-size:15px}.timeline p{font-size:15px}.capability p{font-size:14px}}
+@media(max-width:720px){
+.hero .eyebrow{font-size:14px;letter-spacing:1px}.authors,.affiliations,.affiliations span{font-size:14px}.paper-status{font-size:14px}
+.stat strong{font-size:23px}.stat h2{font-size:15px}.stat p{font-size:14px;max-width:145px}
+.section-heading p{font-size:15px}.highlight h3{font-size:16px}.highlight p{font-size:15px}.quiet-label{font-size:14px}
+.heading-row .text-link{font-size:14px}.timeline time,.timeline-meta{font-size:14px}.timeline p{font-size:15px}.event-label{font-size:14px}
+.tool-list>div{font-size:14px}.framework-note>span,.framework-note p{font-size:14px}.capability h3{font-size:15px}.capability p{font-size:14px}
+.methodology-note{font-size:14px}.resource-intro .eyebrow{font-size:14px}.resource-intro p{font-size:15px}.contact-link{font-size:14px}
+.resource-list>a,.unavailable-resource{font-size:14px}.resource-list>*>span:last-child{font-size:14px}.footer,.footer-paper{font-size:14px}
+}
